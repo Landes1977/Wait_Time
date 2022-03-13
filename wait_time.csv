@@ -2241,53 +2241,521 @@ date,time,park,ride,wait
 03/06/2022,14:35,animal-kingdom,Kilimanjaro Safaris,35.0
 03/06/2022,14:35,animal-kingdom,Na'vi River Journey,60.0
 03/06/2022,14:35,animal-kingdom,TriceraTop Spin,15.0
-03/06/2022,14:40,magic-kingdom,Astro Orbiter,45
-03/06/2022,14:40,magic-kingdom,The Barnstormer,10
-03/06/2022,14:40,magic-kingdom,Big Thunder Mountain Railroad,45
-03/06/2022,14:40,magic-kingdom,Buzz Lightyear's Space Ranger Spin,40
-03/06/2022,14:40,magic-kingdom,Dumbo the Flying Elephant,25
-03/06/2022,14:40,magic-kingdom,Haunted Mansion,45
-03/06/2022,14:40,magic-kingdom,"""it's a small world""",40
-03/06/2022,14:40,magic-kingdom,Jungle Cruise,55
-03/06/2022,14:40,magic-kingdom,Mad Tea Party,15
-03/06/2022,14:40,magic-kingdom,The Magic Carpets of Aladdin,25
-03/06/2022,14:40,magic-kingdom,The Many Adventures of Winnie the Pooh,55
-03/06/2022,14:40,magic-kingdom,Mickey's PhilharMagic,15
-03/06/2022,14:40,magic-kingdom,Monsters Inc. Laugh Floor,20
-03/06/2022,14:40,magic-kingdom,Peter Pan's Flight,75
-03/06/2022,14:40,magic-kingdom,Pirates of the Caribbean,45
-03/06/2022,14:40,magic-kingdom,Prince Charming Regal Carrousel,10
-03/06/2022,14:40,magic-kingdom,Seven Dwarfs Mine Train,75
-03/06/2022,14:40,magic-kingdom,Space Mountain,50
-03/06/2022,14:40,magic-kingdom,Splash Mountain,70
-03/06/2022,14:40,magic-kingdom,Tomorrowland Speedway,15
-03/06/2022,14:40,magic-kingdom,Tomorrowland Transit Authority PeopleMover,30
-03/06/2022,14:40,magic-kingdom,Under the Sea ~ Journey of The Little Mermaid,35
-03/06/2022,14:40,epcot,Frozen Ever After,65
-03/06/2022,14:40,epcot,Gran Fiesta Tour,10
-03/06/2022,14:40,epcot,Journey Into Imagination With Figment,5
-03/06/2022,14:40,epcot,Living with the Land,25
-03/06/2022,14:40,epcot,Mission: SPACE,10
-03/06/2022,14:40,epcot,Remy's Ratatouille Adventure,75
-03/06/2022,14:40,epcot,The Seas with Nemo & Friends,15
-03/06/2022,14:40,epcot,Soarin' Around the World,35
-03/06/2022,14:40,epcot,Spaceship Earth,15
-03/06/2022,14:40,epcot,Test Track,45
-03/06/2022,14:40,hollywood-studios,Alien Swirling Saucers,30
-03/06/2022,14:40,hollywood-studios,Mickey & Minnie's Runaway Railway,65
-03/06/2022,14:40,hollywood-studios,Millennium Falcon: Smugglers Run,50
-03/06/2022,14:40,hollywood-studios,Muppet*Vision 3D,10
-03/06/2022,14:40,hollywood-studios,Rock 'n' Roller Coaster Starring Aerosmith,80
-03/06/2022,14:40,hollywood-studios,Slinky Dog Dash,100
-03/06/2022,14:40,hollywood-studios,Star Tours – The Adventures Continue,15
-03/06/2022,14:40,hollywood-studios,Star Wars: Rise of the Resistance,95
-03/06/2022,14:40,hollywood-studios,Toy Story Mania!,70
-03/06/2022,14:40,hollywood-studios,The Twilight Zone Tower of Terror,115
-03/06/2022,14:40,animal-kingdom,Avatar Flight of Passage,70
-03/06/2022,14:40,animal-kingdom,DINOSAUR,35
+03/06/2022,14:40,magic-kingdom,Astro Orbiter,45.0
+03/06/2022,14:40,magic-kingdom,The Barnstormer,10.0
+03/06/2022,14:40,magic-kingdom,Big Thunder Mountain Railroad,45.0
+03/06/2022,14:40,magic-kingdom,Buzz Lightyear's Space Ranger Spin,40.0
+03/06/2022,14:40,magic-kingdom,Dumbo the Flying Elephant,25.0
+03/06/2022,14:40,magic-kingdom,Haunted Mansion,45.0
+03/06/2022,14:40,magic-kingdom,"""it's a small world""",40.0
+03/06/2022,14:40,magic-kingdom,Jungle Cruise,55.0
+03/06/2022,14:40,magic-kingdom,Mad Tea Party,15.0
+03/06/2022,14:40,magic-kingdom,The Magic Carpets of Aladdin,25.0
+03/06/2022,14:40,magic-kingdom,The Many Adventures of Winnie the Pooh,55.0
+03/06/2022,14:40,magic-kingdom,Mickey's PhilharMagic,15.0
+03/06/2022,14:40,magic-kingdom,Monsters Inc. Laugh Floor,20.0
+03/06/2022,14:40,magic-kingdom,Peter Pan's Flight,75.0
+03/06/2022,14:40,magic-kingdom,Pirates of the Caribbean,45.0
+03/06/2022,14:40,magic-kingdom,Prince Charming Regal Carrousel,10.0
+03/06/2022,14:40,magic-kingdom,Seven Dwarfs Mine Train,75.0
+03/06/2022,14:40,magic-kingdom,Space Mountain,50.0
+03/06/2022,14:40,magic-kingdom,Splash Mountain,70.0
+03/06/2022,14:40,magic-kingdom,Tomorrowland Speedway,15.0
+03/06/2022,14:40,magic-kingdom,Tomorrowland Transit Authority PeopleMover,30.0
+03/06/2022,14:40,magic-kingdom,Under the Sea ~ Journey of The Little Mermaid,35.0
+03/06/2022,14:40,epcot,Frozen Ever After,65.0
+03/06/2022,14:40,epcot,Gran Fiesta Tour,10.0
+03/06/2022,14:40,epcot,Journey Into Imagination With Figment,5.0
+03/06/2022,14:40,epcot,Living with the Land,25.0
+03/06/2022,14:40,epcot,Mission: SPACE,10.0
+03/06/2022,14:40,epcot,Remy's Ratatouille Adventure,75.0
+03/06/2022,14:40,epcot,The Seas with Nemo & Friends,15.0
+03/06/2022,14:40,epcot,Soarin' Around the World,35.0
+03/06/2022,14:40,epcot,Spaceship Earth,15.0
+03/06/2022,14:40,epcot,Test Track,45.0
+03/06/2022,14:40,hollywood-studios,Alien Swirling Saucers,30.0
+03/06/2022,14:40,hollywood-studios,Mickey & Minnie's Runaway Railway,65.0
+03/06/2022,14:40,hollywood-studios,Millennium Falcon: Smugglers Run,50.0
+03/06/2022,14:40,hollywood-studios,Muppet*Vision 3D,10.0
+03/06/2022,14:40,hollywood-studios,Rock 'n' Roller Coaster Starring Aerosmith,80.0
+03/06/2022,14:40,hollywood-studios,Slinky Dog Dash,100.0
+03/06/2022,14:40,hollywood-studios,Star Tours – The Adventures Continue,15.0
+03/06/2022,14:40,hollywood-studios,Star Wars: Rise of the Resistance,95.0
+03/06/2022,14:40,hollywood-studios,Toy Story Mania!,70.0
+03/06/2022,14:40,hollywood-studios,The Twilight Zone Tower of Terror,115.0
+03/06/2022,14:40,animal-kingdom,Avatar Flight of Passage,70.0
+03/06/2022,14:40,animal-kingdom,DINOSAUR,35.0
 03/06/2022,14:40,animal-kingdom,Expedition Everest,
-03/06/2022,14:40,animal-kingdom,It's Tough to be a Bug!,10
-03/06/2022,14:40,animal-kingdom,Kali River Rapids,45
-03/06/2022,14:40,animal-kingdom,Kilimanjaro Safaris,65
-03/06/2022,14:40,animal-kingdom,Na'vi River Journey,60
-03/06/2022,14:40,animal-kingdom,TriceraTop Spin,15
+03/06/2022,14:40,animal-kingdom,It's Tough to be a Bug!,10.0
+03/06/2022,14:40,animal-kingdom,Kali River Rapids,45.0
+03/06/2022,14:40,animal-kingdom,Kilimanjaro Safaris,65.0
+03/06/2022,14:40,animal-kingdom,Na'vi River Journey,60.0
+03/06/2022,14:40,animal-kingdom,TriceraTop Spin,15.0
+03/12/2022,19:50,magic-kingdom,Astro Orbiter,20.0
+03/12/2022,19:50,magic-kingdom,The Barnstormer,5.0
+03/12/2022,19:50,magic-kingdom,Big Thunder Mountain Railroad,35.0
+03/12/2022,19:50,magic-kingdom,Buzz Lightyear's Space Ranger Spin,20.0
+03/12/2022,19:50,magic-kingdom,Dumbo the Flying Elephant,5.0
+03/12/2022,19:50,magic-kingdom,Haunted Mansion,20.0
+03/12/2022,19:50,magic-kingdom,"""it's a small world""",20.0
+03/12/2022,19:50,magic-kingdom,Jungle Cruise,25.0
+03/12/2022,19:50,magic-kingdom,Mad Tea Party,15.0
+03/12/2022,19:50,magic-kingdom,The Magic Carpets of Aladdin,5.0
+03/12/2022,19:50,magic-kingdom,The Many Adventures of Winnie the Pooh,20.0
+03/12/2022,19:50,magic-kingdom,Mickey's PhilharMagic,15.0
+03/12/2022,19:50,magic-kingdom,Monsters Inc. Laugh Floor,20.0
+03/12/2022,19:50,magic-kingdom,Peter Pan's Flight,65.0
+03/12/2022,19:50,magic-kingdom,Pirates of the Caribbean,15.0
+03/12/2022,19:50,magic-kingdom,Prince Charming Regal Carrousel,10.0
+03/12/2022,19:50,magic-kingdom,Seven Dwarfs Mine Train,75.0
+03/12/2022,19:50,magic-kingdom,Space Mountain,50.0
+03/12/2022,19:50,magic-kingdom,Splash Mountain,30.0
+03/12/2022,19:50,magic-kingdom,Tomorrowland Speedway,10.0
+03/12/2022,19:50,magic-kingdom,Tomorrowland Transit Authority PeopleMover,5.0
+03/12/2022,19:50,epcot,Frozen Ever After,
+03/12/2022,19:50,epcot,Gran Fiesta Tour,15.0
+03/12/2022,19:50,epcot,Journey Into Imagination With Figment,10.0
+03/12/2022,19:50,epcot,Living with the Land,5.0
+03/12/2022,19:50,epcot,Mission: SPACE,10.0
+03/12/2022,19:50,epcot,Remy's Ratatouille Adventure,90.0
+03/12/2022,19:50,epcot,The Seas with Nemo & Friends,10.0
+03/12/2022,19:50,epcot,Soarin' Around the World,20.0
+03/12/2022,19:50,epcot,Spaceship Earth,5.0
+03/12/2022,19:50,hollywood-studios,Alien Swirling Saucers,25.0
+03/12/2022,19:50,hollywood-studios,Mickey & Minnie's Runaway Railway,45.0
+03/12/2022,19:50,hollywood-studios,Millennium Falcon: Smugglers Run,60.0
+03/12/2022,19:50,hollywood-studios,Muppet*Vision 3D,10.0
+03/12/2022,19:50,hollywood-studios,Rock 'n' Roller Coaster Starring Aerosmith,70.0
+03/12/2022,19:50,hollywood-studios,Slinky Dog Dash,70.0
+03/12/2022,19:50,hollywood-studios,Star Tours – The Adventures Continue,15.0
+03/12/2022,19:50,hollywood-studios,Star Wars: Rise of the Resistance,
+03/12/2022,19:50,hollywood-studios,Toy Story Mania!,45.0
+03/12/2022,19:50,animal-kingdom,Avatar Flight of Passage,70.0
+03/12/2022,19:50,animal-kingdom,DINOSAUR,50.0
+03/12/2022,19:50,animal-kingdom,Expedition Everest,
+03/12/2022,19:50,animal-kingdom,It's Tough to be a Bug!,10.0
+03/12/2022,19:50,animal-kingdom,Kali River Rapids,5.0
+03/12/2022,19:50,animal-kingdom,Kilimanjaro Safaris,
+03/12/2022,19:50,animal-kingdom,Na'vi River Journey,75.0
+03/12/2022,19:56,magic-kingdom,Astro Orbiter,20.0
+03/12/2022,19:56,magic-kingdom,The Barnstormer,5.0
+03/12/2022,19:56,magic-kingdom,Big Thunder Mountain Railroad,30.0
+03/12/2022,19:56,magic-kingdom,Buzz Lightyear's Space Ranger Spin,20.0
+03/12/2022,19:56,magic-kingdom,Dumbo the Flying Elephant,5.0
+03/12/2022,19:56,magic-kingdom,Haunted Mansion,20.0
+03/12/2022,19:56,magic-kingdom,"""it's a small world""",20.0
+03/12/2022,19:56,magic-kingdom,Jungle Cruise,25.0
+03/12/2022,19:56,magic-kingdom,Mad Tea Party,15.0
+03/12/2022,19:57,magic-kingdom,The Magic Carpets of Aladdin,5.0
+03/12/2022,19:57,magic-kingdom,The Many Adventures of Winnie the Pooh,20.0
+03/12/2022,19:57,magic-kingdom,Mickey's PhilharMagic,15.0
+03/12/2022,19:57,magic-kingdom,Monsters Inc. Laugh Floor,20.0
+03/12/2022,19:57,magic-kingdom,Peter Pan's Flight,65.0
+03/12/2022,19:57,magic-kingdom,Pirates of the Caribbean,15.0
+03/12/2022,19:57,magic-kingdom,Prince Charming Regal Carrousel,10.0
+03/12/2022,19:57,magic-kingdom,Seven Dwarfs Mine Train,50.0
+03/12/2022,19:57,magic-kingdom,Space Mountain,50.0
+03/12/2022,19:57,magic-kingdom,Splash Mountain,20.0
+03/12/2022,19:57,magic-kingdom,Tomorrowland Speedway,10.0
+03/12/2022,19:57,magic-kingdom,Tomorrowland Transit Authority PeopleMover,5.0
+03/12/2022,19:57,epcot,Frozen Ever After,
+03/12/2022,19:57,epcot,Gran Fiesta Tour,15.0
+03/12/2022,19:57,epcot,Journey Into Imagination With Figment,10.0
+03/12/2022,19:57,epcot,Living with the Land,5.0
+03/12/2022,19:57,epcot,Mission: SPACE,10.0
+03/12/2022,19:57,epcot,Remy's Ratatouille Adventure,85.0
+03/12/2022,19:57,epcot,The Seas with Nemo & Friends,10.0
+03/12/2022,19:57,epcot,Soarin' Around the World,20.0
+03/12/2022,19:57,epcot,Spaceship Earth,5.0
+03/12/2022,19:57,hollywood-studios,Alien Swirling Saucers,25.0
+03/12/2022,19:57,hollywood-studios,Mickey & Minnie's Runaway Railway,35.0
+03/12/2022,19:57,hollywood-studios,Millennium Falcon: Smugglers Run,60.0
+03/12/2022,19:57,hollywood-studios,Muppet*Vision 3D,10.0
+03/12/2022,19:57,hollywood-studios,Rock 'n' Roller Coaster Starring Aerosmith,70.0
+03/12/2022,19:57,hollywood-studios,Slinky Dog Dash,60.0
+03/12/2022,19:57,hollywood-studios,Star Tours – The Adventures Continue,15.0
+03/12/2022,19:57,hollywood-studios,Star Wars: Rise of the Resistance,140.0
+03/12/2022,19:57,hollywood-studios,Toy Story Mania!,45.0
+03/12/2022,19:57,animal-kingdom,Avatar Flight of Passage,70.0
+03/12/2022,19:57,animal-kingdom,DINOSAUR,5.0
+03/12/2022,19:57,animal-kingdom,Expedition Everest,
+03/12/2022,19:57,animal-kingdom,It's Tough to be a Bug!,10.0
+03/12/2022,19:57,animal-kingdom,Kali River Rapids,5.0
+03/12/2022,19:57,animal-kingdom,Kilimanjaro Safaris,
+03/12/2022,19:57,animal-kingdom,Na'vi River Journey,50.0
+03/12/2022,20:05,magic-kingdom,Astro Orbiter,5.0
+03/12/2022,20:05,magic-kingdom,The Barnstormer,5.0
+03/12/2022,20:05,magic-kingdom,Big Thunder Mountain Railroad,30.0
+03/12/2022,20:05,magic-kingdom,Buzz Lightyear's Space Ranger Spin,5.0
+03/12/2022,20:05,magic-kingdom,Dumbo the Flying Elephant,5.0
+03/12/2022,20:05,magic-kingdom,Haunted Mansion,13.0
+03/12/2022,20:05,magic-kingdom,"""it's a small world""",20.0
+03/12/2022,20:05,magic-kingdom,Jungle Cruise,25.0
+03/12/2022,20:05,magic-kingdom,Mad Tea Party,10.0
+03/12/2022,20:05,magic-kingdom,The Magic Carpets of Aladdin,5.0
+03/12/2022,20:05,magic-kingdom,The Many Adventures of Winnie the Pooh,20.0
+03/12/2022,20:05,magic-kingdom,Mickey's PhilharMagic,15.0
+03/12/2022,20:05,magic-kingdom,Monsters Inc. Laugh Floor,5.0
+03/12/2022,20:05,magic-kingdom,Peter Pan's Flight,65.0
+03/12/2022,20:05,magic-kingdom,Pirates of the Caribbean,15.0
+03/12/2022,20:05,magic-kingdom,Prince Charming Regal Carrousel,
+03/12/2022,20:05,magic-kingdom,Seven Dwarfs Mine Train,50.0
+03/12/2022,20:05,magic-kingdom,Space Mountain,40.0
+03/12/2022,20:05,magic-kingdom,Splash Mountain,15.0
+03/12/2022,20:05,magic-kingdom,Tomorrowland Speedway,5.0
+03/12/2022,20:05,magic-kingdom,Tomorrowland Transit Authority PeopleMover,5.0
+03/12/2022,20:05,epcot,Frozen Ever After,
+03/12/2022,20:05,epcot,Gran Fiesta Tour,15.0
+03/12/2022,20:05,epcot,Journey Into Imagination With Figment,10.0
+03/12/2022,20:05,epcot,Living with the Land,5.0
+03/12/2022,20:05,epcot,Mission: SPACE,10.0
+03/12/2022,20:05,epcot,Remy's Ratatouille Adventure,85.0
+03/12/2022,20:05,epcot,The Seas with Nemo & Friends,10.0
+03/12/2022,20:05,epcot,Soarin' Around the World,20.0
+03/12/2022,20:05,epcot,Spaceship Earth,5.0
+03/12/2022,20:05,hollywood-studios,Alien Swirling Saucers,20.0
+03/12/2022,20:05,hollywood-studios,Mickey & Minnie's Runaway Railway,30.0
+03/12/2022,20:05,hollywood-studios,Millennium Falcon: Smugglers Run,60.0
+03/12/2022,20:05,hollywood-studios,Muppet*Vision 3D,
+03/12/2022,20:05,hollywood-studios,Rock 'n' Roller Coaster Starring Aerosmith,50.0
+03/12/2022,20:05,hollywood-studios,Slinky Dog Dash,60.0
+03/12/2022,20:05,hollywood-studios,Star Tours – The Adventures Continue,15.0
+03/12/2022,20:05,hollywood-studios,Star Wars: Rise of the Resistance,130.0
+03/12/2022,20:05,hollywood-studios,Toy Story Mania!,45.0
+03/12/2022,20:10,magic-kingdom,Astro Orbiter,25.0
+03/12/2022,20:10,magic-kingdom,The Barnstormer,5.0
+03/12/2022,20:10,magic-kingdom,Big Thunder Mountain Railroad,30.0
+03/12/2022,20:10,magic-kingdom,Buzz Lightyear's Space Ranger Spin,5.0
+03/12/2022,20:10,magic-kingdom,Dumbo the Flying Elephant,5.0
+03/12/2022,20:10,magic-kingdom,Haunted Mansion,13.0
+03/12/2022,20:10,magic-kingdom,"""it's a small world""",10.0
+03/12/2022,20:10,magic-kingdom,Jungle Cruise,25.0
+03/12/2022,20:10,magic-kingdom,Mad Tea Party,10.0
+03/12/2022,20:10,magic-kingdom,The Magic Carpets of Aladdin,5.0
+03/12/2022,20:10,magic-kingdom,The Many Adventures of Winnie the Pooh,20.0
+03/12/2022,20:10,magic-kingdom,Mickey's PhilharMagic,15.0
+03/12/2022,20:10,magic-kingdom,Monsters Inc. Laugh Floor,5.0
+03/12/2022,20:10,magic-kingdom,Peter Pan's Flight,45.0
+03/12/2022,20:10,magic-kingdom,Pirates of the Caribbean,10.0
+03/12/2022,20:10,magic-kingdom,Prince Charming Regal Carrousel,
+03/12/2022,20:10,magic-kingdom,Seven Dwarfs Mine Train,50.0
+03/12/2022,20:10,magic-kingdom,Space Mountain,45.0
+03/12/2022,20:10,magic-kingdom,Splash Mountain,15.0
+03/12/2022,20:10,magic-kingdom,Tomorrowland Speedway,5.0
+03/12/2022,20:10,magic-kingdom,Tomorrowland Transit Authority PeopleMover,5.0
+03/12/2022,20:10,epcot,Frozen Ever After,
+03/12/2022,20:10,epcot,Gran Fiesta Tour,15.0
+03/12/2022,20:10,epcot,Journey Into Imagination With Figment,10.0
+03/12/2022,20:10,epcot,Living with the Land,5.0
+03/12/2022,20:10,epcot,Mission: SPACE,10.0
+03/12/2022,20:10,epcot,Remy's Ratatouille Adventure,60.0
+03/12/2022,20:10,epcot,The Seas with Nemo & Friends,10.0
+03/12/2022,20:10,epcot,Soarin' Around the World,20.0
+03/12/2022,20:10,epcot,Spaceship Earth,5.0
+03/12/2022,20:10,hollywood-studios,Alien Swirling Saucers,15.0
+03/12/2022,20:10,hollywood-studios,Mickey & Minnie's Runaway Railway,30.0
+03/12/2022,20:10,hollywood-studios,Millennium Falcon: Smugglers Run,60.0
+03/12/2022,20:10,hollywood-studios,Muppet*Vision 3D,
+03/12/2022,20:10,hollywood-studios,Rock 'n' Roller Coaster Starring Aerosmith,50.0
+03/12/2022,20:10,hollywood-studios,Slinky Dog Dash,60.0
+03/12/2022,20:10,hollywood-studios,Star Tours – The Adventures Continue,15.0
+03/12/2022,20:10,hollywood-studios,Star Wars: Rise of the Resistance,130.0
+03/12/2022,20:10,hollywood-studios,Toy Story Mania!,45.0
+03/12/2022,20:15,magic-kingdom,Astro Orbiter,25.0
+03/12/2022,20:15,magic-kingdom,The Barnstormer,5.0
+03/12/2022,20:15,magic-kingdom,Big Thunder Mountain Railroad,30.0
+03/12/2022,20:15,magic-kingdom,Buzz Lightyear's Space Ranger Spin,5.0
+03/12/2022,20:15,magic-kingdom,Dumbo the Flying Elephant,5.0
+03/12/2022,20:15,magic-kingdom,Haunted Mansion,13.0
+03/12/2022,20:15,magic-kingdom,"""it's a small world""",10.0
+03/12/2022,20:15,magic-kingdom,Jungle Cruise,25.0
+03/12/2022,20:15,magic-kingdom,Mad Tea Party,10.0
+03/12/2022,20:15,magic-kingdom,The Magic Carpets of Aladdin,5.0
+03/12/2022,20:15,magic-kingdom,The Many Adventures of Winnie the Pooh,20.0
+03/12/2022,20:15,magic-kingdom,Mickey's PhilharMagic,15.0
+03/12/2022,20:15,magic-kingdom,Monsters Inc. Laugh Floor,5.0
+03/12/2022,20:15,magic-kingdom,Peter Pan's Flight,45.0
+03/12/2022,20:15,magic-kingdom,Pirates of the Caribbean,10.0
+03/12/2022,20:15,magic-kingdom,Prince Charming Regal Carrousel,
+03/12/2022,20:15,magic-kingdom,Seven Dwarfs Mine Train,20.0
+03/12/2022,20:15,magic-kingdom,Space Mountain,45.0
+03/12/2022,20:15,magic-kingdom,Splash Mountain,15.0
+03/12/2022,20:15,magic-kingdom,Tomorrowland Speedway,5.0
+03/12/2022,20:15,magic-kingdom,Tomorrowland Transit Authority PeopleMover,5.0
+03/12/2022,20:15,epcot,Frozen Ever After,
+03/12/2022,20:15,epcot,Gran Fiesta Tour,15.0
+03/12/2022,20:15,epcot,Journey Into Imagination With Figment,10.0
+03/12/2022,20:15,epcot,Living with the Land,5.0
+03/12/2022,20:15,epcot,Mission: SPACE,10.0
+03/12/2022,20:15,epcot,Remy's Ratatouille Adventure,60.0
+03/12/2022,20:15,epcot,The Seas with Nemo & Friends,10.0
+03/12/2022,20:15,epcot,Soarin' Around the World,20.0
+03/12/2022,20:15,epcot,Spaceship Earth,5.0
+03/12/2022,20:15,hollywood-studios,Alien Swirling Saucers,15.0
+03/12/2022,20:15,hollywood-studios,Mickey & Minnie's Runaway Railway,30.0
+03/12/2022,20:15,hollywood-studios,Millennium Falcon: Smugglers Run,60.0
+03/12/2022,20:15,hollywood-studios,Muppet*Vision 3D,
+03/12/2022,20:15,hollywood-studios,Rock 'n' Roller Coaster Starring Aerosmith,50.0
+03/12/2022,20:15,hollywood-studios,Slinky Dog Dash,60.0
+03/12/2022,20:15,hollywood-studios,Star Tours – The Adventures Continue,15.0
+03/12/2022,20:15,hollywood-studios,Star Wars: Rise of the Resistance,130.0
+03/12/2022,20:15,hollywood-studios,Toy Story Mania!,45.0
+03/12/2022,20:20,magic-kingdom,Astro Orbiter,25.0
+03/12/2022,20:20,magic-kingdom,The Barnstormer,5.0
+03/12/2022,20:20,magic-kingdom,Big Thunder Mountain Railroad,30.0
+03/12/2022,20:20,magic-kingdom,Buzz Lightyear's Space Ranger Spin,5.0
+03/12/2022,20:20,magic-kingdom,Dumbo the Flying Elephant,5.0
+03/12/2022,20:20,magic-kingdom,Haunted Mansion,20.0
+03/12/2022,20:20,magic-kingdom,"""it's a small world""",10.0
+03/12/2022,20:20,magic-kingdom,Jungle Cruise,25.0
+03/12/2022,20:20,magic-kingdom,Mad Tea Party,10.0
+03/12/2022,20:20,magic-kingdom,The Magic Carpets of Aladdin,5.0
+03/12/2022,20:20,magic-kingdom,The Many Adventures of Winnie the Pooh,20.0
+03/12/2022,20:20,magic-kingdom,Mickey's PhilharMagic,15.0
+03/12/2022,20:20,magic-kingdom,Monsters Inc. Laugh Floor,5.0
+03/12/2022,20:20,magic-kingdom,Peter Pan's Flight,45.0
+03/12/2022,20:20,magic-kingdom,Pirates of the Caribbean,10.0
+03/12/2022,20:20,magic-kingdom,Prince Charming Regal Carrousel,
+03/12/2022,20:20,magic-kingdom,Seven Dwarfs Mine Train,45.0
+03/12/2022,20:20,magic-kingdom,Space Mountain,45.0
+03/12/2022,20:20,magic-kingdom,Splash Mountain,15.0
+03/12/2022,20:20,magic-kingdom,Tomorrowland Speedway,5.0
+03/12/2022,20:20,magic-kingdom,Tomorrowland Transit Authority PeopleMover,5.0
+03/12/2022,20:20,epcot,Frozen Ever After,
+03/12/2022,20:20,epcot,Gran Fiesta Tour,15.0
+03/12/2022,20:20,epcot,Journey Into Imagination With Figment,10.0
+03/12/2022,20:20,epcot,Living with the Land,5.0
+03/12/2022,20:20,epcot,Mission: SPACE,10.0
+03/12/2022,20:20,epcot,Remy's Ratatouille Adventure,60.0
+03/12/2022,20:20,epcot,The Seas with Nemo & Friends,10.0
+03/12/2022,20:20,epcot,Soarin' Around the World,20.0
+03/12/2022,20:20,epcot,Spaceship Earth,5.0
+03/12/2022,20:20,hollywood-studios,Alien Swirling Saucers,15.0
+03/12/2022,20:20,hollywood-studios,Mickey & Minnie's Runaway Railway,30.0
+03/12/2022,20:20,hollywood-studios,Millennium Falcon: Smugglers Run,25.0
+03/12/2022,20:20,hollywood-studios,Muppet*Vision 3D,
+03/12/2022,20:20,hollywood-studios,Rock 'n' Roller Coaster Starring Aerosmith,40.0
+03/12/2022,20:20,hollywood-studios,Slinky Dog Dash,60.0
+03/12/2022,20:20,hollywood-studios,Star Tours – The Adventures Continue,15.0
+03/12/2022,20:20,hollywood-studios,Star Wars: Rise of the Resistance,110.0
+03/12/2022,20:20,hollywood-studios,Toy Story Mania!,45.0
+03/12/2022,22:05,magic-kingdom,Astro Orbiter,5.0
+03/12/2022,22:05,magic-kingdom,The Barnstormer,5.0
+03/12/2022,22:05,magic-kingdom,Big Thunder Mountain Railroad,35.0
+03/12/2022,22:05,magic-kingdom,Buzz Lightyear's Space Ranger Spin,5.0
+03/12/2022,22:05,magic-kingdom,Dumbo the Flying Elephant,5.0
+03/12/2022,22:05,magic-kingdom,Haunted Mansion,13.0
+03/12/2022,22:05,magic-kingdom,"""it's a small world""",5.0
+03/12/2022,22:05,magic-kingdom,Jungle Cruise,10.0
+03/12/2022,22:05,magic-kingdom,Mad Tea Party,10.0
+03/12/2022,22:05,magic-kingdom,The Magic Carpets of Aladdin,5.0
+03/12/2022,22:05,magic-kingdom,The Many Adventures of Winnie the Pooh,30.0
+03/12/2022,22:05,magic-kingdom,Mickey's PhilharMagic,15.0
+03/12/2022,22:05,magic-kingdom,Monsters Inc. Laugh Floor,
+03/12/2022,22:05,magic-kingdom,Peter Pan's Flight,45.0
+03/12/2022,22:05,magic-kingdom,Pirates of the Caribbean,10.0
+03/12/2022,22:05,magic-kingdom,Prince Charming Regal Carrousel,10.0
+03/12/2022,22:05,magic-kingdom,Seven Dwarfs Mine Train,40.0
+03/12/2022,22:05,magic-kingdom,Space Mountain,50.0
+03/12/2022,22:05,magic-kingdom,Splash Mountain,
+03/12/2022,22:05,magic-kingdom,Tomorrowland Speedway,0.0
+03/12/2022,22:05,magic-kingdom,Tomorrowland Transit Authority PeopleMover,5.0
+03/12/2022,22:05,magic-kingdom,Under the Sea ~ Journey of The Little Mermaid,
+03/12/2022,22:10,magic-kingdom,Astro Orbiter,5.0
+03/12/2022,22:10,magic-kingdom,The Barnstormer,5.0
+03/12/2022,22:10,magic-kingdom,Big Thunder Mountain Railroad,25.0
+03/12/2022,22:10,magic-kingdom,Buzz Lightyear's Space Ranger Spin,5.0
+03/12/2022,22:10,magic-kingdom,Dumbo the Flying Elephant,5.0
+03/12/2022,22:10,magic-kingdom,Haunted Mansion,13.0
+03/12/2022,22:10,magic-kingdom,"""it's a small world""",5.0
+03/12/2022,22:10,magic-kingdom,Jungle Cruise,10.0
+03/12/2022,22:10,magic-kingdom,Mad Tea Party,10.0
+03/12/2022,22:10,magic-kingdom,The Magic Carpets of Aladdin,5.0
+03/12/2022,22:10,magic-kingdom,The Many Adventures of Winnie the Pooh,30.0
+03/12/2022,22:10,magic-kingdom,Mickey's PhilharMagic,15.0
+03/12/2022,22:10,magic-kingdom,Monsters Inc. Laugh Floor,
+03/12/2022,22:10,magic-kingdom,Peter Pan's Flight,45.0
+03/12/2022,22:10,magic-kingdom,Pirates of the Caribbean,5.0
+03/12/2022,22:10,magic-kingdom,Prince Charming Regal Carrousel,10.0
+03/12/2022,22:10,magic-kingdom,Seven Dwarfs Mine Train,40.0
+03/12/2022,22:10,magic-kingdom,Space Mountain,50.0
+03/12/2022,22:10,magic-kingdom,Splash Mountain,
+03/12/2022,22:10,magic-kingdom,Tomorrowland Speedway,0.0
+03/12/2022,22:10,magic-kingdom,Tomorrowland Transit Authority PeopleMover,5.0
+03/12/2022,22:10,magic-kingdom,Under the Sea ~ Journey of The Little Mermaid,
+03/12/2022,22:15,magic-kingdom,Astro Orbiter,5.0
+03/12/2022,22:15,magic-kingdom,The Barnstormer,5.0
+03/12/2022,22:15,magic-kingdom,Big Thunder Mountain Railroad,25.0
+03/12/2022,22:15,magic-kingdom,Buzz Lightyear's Space Ranger Spin,5.0
+03/12/2022,22:15,magic-kingdom,Dumbo the Flying Elephant,5.0
+03/12/2022,22:15,magic-kingdom,Haunted Mansion,13.0
+03/12/2022,22:15,magic-kingdom,"""it's a small world""",5.0
+03/12/2022,22:15,magic-kingdom,Jungle Cruise,5.0
+03/12/2022,22:15,magic-kingdom,Mad Tea Party,10.0
+03/12/2022,22:15,magic-kingdom,The Magic Carpets of Aladdin,5.0
+03/12/2022,22:15,magic-kingdom,The Many Adventures of Winnie the Pooh,30.0
+03/12/2022,22:15,magic-kingdom,Mickey's PhilharMagic,15.0
+03/12/2022,22:15,magic-kingdom,Monsters Inc. Laugh Floor,
+03/12/2022,22:15,magic-kingdom,Peter Pan's Flight,45.0
+03/12/2022,22:15,magic-kingdom,Pirates of the Caribbean,5.0
+03/12/2022,22:15,magic-kingdom,Prince Charming Regal Carrousel,10.0
+03/12/2022,22:15,magic-kingdom,Seven Dwarfs Mine Train,40.0
+03/12/2022,22:15,magic-kingdom,Space Mountain,50.0
+03/12/2022,22:15,magic-kingdom,Splash Mountain,
+03/12/2022,22:15,magic-kingdom,Tomorrowland Speedway,0.0
+03/12/2022,22:15,magic-kingdom,Tomorrowland Transit Authority PeopleMover,5.0
+03/12/2022,22:15,magic-kingdom,Under the Sea ~ Journey of The Little Mermaid,
+03/12/2022,22:20,magic-kingdom,Astro Orbiter,5.0
+03/12/2022,22:20,magic-kingdom,The Barnstormer,5.0
+03/12/2022,22:20,magic-kingdom,Big Thunder Mountain Railroad,
+03/12/2022,22:20,magic-kingdom,Buzz Lightyear's Space Ranger Spin,5.0
+03/12/2022,22:20,magic-kingdom,Dumbo the Flying Elephant,5.0
+03/12/2022,22:20,magic-kingdom,Haunted Mansion,13.0
+03/12/2022,22:20,magic-kingdom,"""it's a small world""",5.0
+03/12/2022,22:20,magic-kingdom,Jungle Cruise,5.0
+03/12/2022,22:20,magic-kingdom,Mad Tea Party,10.0
+03/12/2022,22:20,magic-kingdom,The Magic Carpets of Aladdin,5.0
+03/12/2022,22:20,magic-kingdom,The Many Adventures of Winnie the Pooh,30.0
+03/12/2022,22:20,magic-kingdom,Mickey's PhilharMagic,15.0
+03/12/2022,22:20,magic-kingdom,Monsters Inc. Laugh Floor,
+03/12/2022,22:20,magic-kingdom,Peter Pan's Flight,45.0
+03/12/2022,22:20,magic-kingdom,Pirates of the Caribbean,5.0
+03/12/2022,22:20,magic-kingdom,Prince Charming Regal Carrousel,10.0
+03/12/2022,22:20,magic-kingdom,Seven Dwarfs Mine Train,40.0
+03/12/2022,22:20,magic-kingdom,Space Mountain,35.0
+03/12/2022,22:20,magic-kingdom,Splash Mountain,
+03/12/2022,22:20,magic-kingdom,Tomorrowland Speedway,0.0
+03/12/2022,22:20,magic-kingdom,Tomorrowland Transit Authority PeopleMover,5.0
+03/12/2022,22:20,magic-kingdom,Under the Sea ~ Journey of The Little Mermaid,
+03/12/2022,22:25,magic-kingdom,Astro Orbiter,5.0
+03/12/2022,22:25,magic-kingdom,The Barnstormer,5.0
+03/12/2022,22:25,magic-kingdom,Big Thunder Mountain Railroad,
+03/12/2022,22:25,magic-kingdom,Buzz Lightyear's Space Ranger Spin,5.0
+03/12/2022,22:25,magic-kingdom,Dumbo the Flying Elephant,5.0
+03/12/2022,22:25,magic-kingdom,Haunted Mansion,13.0
+03/12/2022,22:25,magic-kingdom,"""it's a small world""",5.0
+03/12/2022,22:25,magic-kingdom,Jungle Cruise,5.0
+03/12/2022,22:25,magic-kingdom,Mad Tea Party,10.0
+03/12/2022,22:25,magic-kingdom,The Magic Carpets of Aladdin,5.0
+03/12/2022,22:25,magic-kingdom,The Many Adventures of Winnie the Pooh,20.0
+03/12/2022,22:25,magic-kingdom,Mickey's PhilharMagic,15.0
+03/12/2022,22:25,magic-kingdom,Monsters Inc. Laugh Floor,
+03/12/2022,22:25,magic-kingdom,Peter Pan's Flight,45.0
+03/12/2022,22:25,magic-kingdom,Pirates of the Caribbean,5.0
+03/12/2022,22:25,magic-kingdom,Prince Charming Regal Carrousel,10.0
+03/12/2022,22:25,magic-kingdom,Seven Dwarfs Mine Train,40.0
+03/12/2022,22:25,magic-kingdom,Space Mountain,40.0
+03/12/2022,22:25,magic-kingdom,Splash Mountain,
+03/12/2022,22:25,magic-kingdom,Tomorrowland Speedway,0.0
+03/12/2022,22:25,magic-kingdom,Tomorrowland Transit Authority PeopleMover,5.0
+03/12/2022,22:25,magic-kingdom,Under the Sea ~ Journey of The Little Mermaid,
+03/12/2022,22:30,magic-kingdom,Astro Orbiter,5.0
+03/12/2022,22:30,magic-kingdom,The Barnstormer,5.0
+03/12/2022,22:30,magic-kingdom,Big Thunder Mountain Railroad,
+03/12/2022,22:30,magic-kingdom,Buzz Lightyear's Space Ranger Spin,5.0
+03/12/2022,22:30,magic-kingdom,Dumbo the Flying Elephant,5.0
+03/12/2022,22:30,magic-kingdom,Haunted Mansion,13.0
+03/12/2022,22:30,magic-kingdom,"""it's a small world""",5.0
+03/12/2022,22:30,magic-kingdom,Jungle Cruise,5.0
+03/12/2022,22:30,magic-kingdom,Mad Tea Party,10.0
+03/12/2022,22:30,magic-kingdom,The Magic Carpets of Aladdin,5.0
+03/12/2022,22:30,magic-kingdom,The Many Adventures of Winnie the Pooh,20.0
+03/12/2022,22:30,magic-kingdom,Mickey's PhilharMagic,15.0
+03/12/2022,22:30,magic-kingdom,Monsters Inc. Laugh Floor,
+03/12/2022,22:30,magic-kingdom,Peter Pan's Flight,45.0
+03/12/2022,22:30,magic-kingdom,Pirates of the Caribbean,5.0
+03/12/2022,22:30,magic-kingdom,Prince Charming Regal Carrousel,10.0
+03/12/2022,22:30,magic-kingdom,Seven Dwarfs Mine Train,40.0
+03/12/2022,22:30,magic-kingdom,Space Mountain,40.0
+03/12/2022,22:30,magic-kingdom,Splash Mountain,
+03/12/2022,22:30,magic-kingdom,Tomorrowland Speedway,5.0
+03/12/2022,22:30,magic-kingdom,Tomorrowland Transit Authority PeopleMover,5.0
+03/12/2022,22:30,magic-kingdom,Under the Sea ~ Journey of The Little Mermaid,
+03/12/2022,22:35,magic-kingdom,Astro Orbiter,5.0
+03/12/2022,22:35,magic-kingdom,The Barnstormer,5.0
+03/12/2022,22:35,magic-kingdom,Big Thunder Mountain Railroad,
+03/12/2022,22:35,magic-kingdom,Buzz Lightyear's Space Ranger Spin,5.0
+03/12/2022,22:35,magic-kingdom,Dumbo the Flying Elephant,5.0
+03/12/2022,22:35,magic-kingdom,Haunted Mansion,13.0
+03/12/2022,22:35,magic-kingdom,"""it's a small world""",5.0
+03/12/2022,22:35,magic-kingdom,Jungle Cruise,5.0
+03/12/2022,22:35,magic-kingdom,Mad Tea Party,10.0
+03/12/2022,22:35,magic-kingdom,The Magic Carpets of Aladdin,5.0
+03/12/2022,22:35,magic-kingdom,The Many Adventures of Winnie the Pooh,20.0
+03/12/2022,22:35,magic-kingdom,Mickey's PhilharMagic,15.0
+03/12/2022,22:35,magic-kingdom,Monsters Inc. Laugh Floor,
+03/12/2022,22:35,magic-kingdom,Peter Pan's Flight,45.0
+03/12/2022,22:35,magic-kingdom,Pirates of the Caribbean,5.0
+03/12/2022,22:35,magic-kingdom,Prince Charming Regal Carrousel,10.0
+03/12/2022,22:35,magic-kingdom,Seven Dwarfs Mine Train,40.0
+03/12/2022,22:35,magic-kingdom,Space Mountain,40.0
+03/12/2022,22:35,magic-kingdom,Splash Mountain,
+03/12/2022,22:35,magic-kingdom,Tomorrowland Speedway,5.0
+03/12/2022,22:35,magic-kingdom,Tomorrowland Transit Authority PeopleMover,5.0
+03/12/2022,22:35,magic-kingdom,Under the Sea ~ Journey of The Little Mermaid,
+03/12/2022,22:40,magic-kingdom,Astro Orbiter,5.0
+03/12/2022,22:40,magic-kingdom,The Barnstormer,5.0
+03/12/2022,22:40,magic-kingdom,Big Thunder Mountain Railroad,25.0
+03/12/2022,22:40,magic-kingdom,Buzz Lightyear's Space Ranger Spin,5.0
+03/12/2022,22:40,magic-kingdom,Dumbo the Flying Elephant,5.0
+03/12/2022,22:40,magic-kingdom,Haunted Mansion,13.0
+03/12/2022,22:40,magic-kingdom,"""it's a small world""",5.0
+03/12/2022,22:40,magic-kingdom,Jungle Cruise,10.0
+03/12/2022,22:40,magic-kingdom,Mad Tea Party,10.0
+03/12/2022,22:40,magic-kingdom,The Magic Carpets of Aladdin,5.0
+03/12/2022,22:40,magic-kingdom,The Many Adventures of Winnie the Pooh,15.0
+03/12/2022,22:40,magic-kingdom,Mickey's PhilharMagic,15.0
+03/12/2022,22:40,magic-kingdom,Monsters Inc. Laugh Floor,
+03/12/2022,22:40,magic-kingdom,Peter Pan's Flight,35.0
+03/12/2022,22:40,magic-kingdom,Pirates of the Caribbean,5.0
+03/12/2022,22:40,magic-kingdom,Prince Charming Regal Carrousel,5.0
+03/12/2022,22:40,magic-kingdom,Seven Dwarfs Mine Train,40.0
+03/12/2022,22:40,magic-kingdom,Space Mountain,40.0
+03/12/2022,22:40,magic-kingdom,Splash Mountain,
+03/12/2022,22:40,magic-kingdom,Tomorrowland Speedway,5.0
+03/12/2022,22:40,magic-kingdom,Tomorrowland Transit Authority PeopleMover,5.0
+03/12/2022,22:40,magic-kingdom,Under the Sea ~ Journey of The Little Mermaid,
+03/12/2022,22:45,magic-kingdom,Astro Orbiter,5.0
+03/12/2022,22:45,magic-kingdom,The Barnstormer,5.0
+03/12/2022,22:45,magic-kingdom,Big Thunder Mountain Railroad,25.0
+03/12/2022,22:45,magic-kingdom,Buzz Lightyear's Space Ranger Spin,5.0
+03/12/2022,22:45,magic-kingdom,Dumbo the Flying Elephant,5.0
+03/12/2022,22:45,magic-kingdom,Haunted Mansion,13.0
+03/12/2022,22:45,magic-kingdom,"""it's a small world""",5.0
+03/12/2022,22:45,magic-kingdom,Jungle Cruise,10.0
+03/12/2022,22:45,magic-kingdom,Mad Tea Party,10.0
+03/12/2022,22:45,magic-kingdom,The Magic Carpets of Aladdin,5.0
+03/12/2022,22:45,magic-kingdom,The Many Adventures of Winnie the Pooh,15.0
+03/12/2022,22:45,magic-kingdom,Mickey's PhilharMagic,15.0
+03/12/2022,22:45,magic-kingdom,Monsters Inc. Laugh Floor,
+03/12/2022,22:45,magic-kingdom,Peter Pan's Flight,35.0
+03/12/2022,22:45,magic-kingdom,Pirates of the Caribbean,5.0
+03/12/2022,22:45,magic-kingdom,Prince Charming Regal Carrousel,5.0
+03/12/2022,22:45,magic-kingdom,Seven Dwarfs Mine Train,40.0
+03/12/2022,22:45,magic-kingdom,Space Mountain,40.0
+03/12/2022,22:45,magic-kingdom,Splash Mountain,
+03/12/2022,22:45,magic-kingdom,Tomorrowland Speedway,5.0
+03/12/2022,22:45,magic-kingdom,Tomorrowland Transit Authority PeopleMover,5.0
+03/12/2022,22:45,magic-kingdom,Under the Sea ~ Journey of The Little Mermaid,
+03/12/2022,22:50,magic-kingdom,Astro Orbiter,5
+03/12/2022,22:50,magic-kingdom,The Barnstormer,5
+03/12/2022,22:50,magic-kingdom,Big Thunder Mountain Railroad,10
+03/12/2022,22:50,magic-kingdom,Buzz Lightyear's Space Ranger Spin,5
+03/12/2022,22:50,magic-kingdom,Dumbo the Flying Elephant,5
+03/12/2022,22:50,magic-kingdom,Haunted Mansion,13
+03/12/2022,22:50,magic-kingdom,"""it's a small world""",5
+03/12/2022,22:50,magic-kingdom,Jungle Cruise,10
+03/12/2022,22:50,magic-kingdom,Mad Tea Party,10
+03/12/2022,22:50,magic-kingdom,The Magic Carpets of Aladdin,5
+03/12/2022,22:50,magic-kingdom,The Many Adventures of Winnie the Pooh,15
+03/12/2022,22:50,magic-kingdom,Mickey's PhilharMagic,15
+03/12/2022,22:50,magic-kingdom,Monsters Inc. Laugh Floor,
+03/12/2022,22:50,magic-kingdom,Peter Pan's Flight,35
+03/12/2022,22:50,magic-kingdom,Pirates of the Caribbean,5
+03/12/2022,22:50,magic-kingdom,Prince Charming Regal Carrousel,5
+03/12/2022,22:50,magic-kingdom,Seven Dwarfs Mine Train,35
+03/12/2022,22:50,magic-kingdom,Space Mountain,45
+03/12/2022,22:50,magic-kingdom,Splash Mountain,
+03/12/2022,22:50,magic-kingdom,Tomorrowland Speedway,5
+03/12/2022,22:50,magic-kingdom,Tomorrowland Transit Authority PeopleMover,5
+03/12/2022,22:50,magic-kingdom,Under the Sea ~ Journey of The Little Mermaid,
